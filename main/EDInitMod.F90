@@ -195,8 +195,8 @@ contains
     site_in%cleafoffdate     = fates_unset_int  ! doy of leaf off
     site_in%dleafondate      = fates_unset_int  ! doy of leaf on drought
     site_in%dleafoffdate     = fates_unset_int  ! doy of leaf on drought
-    site_in%water_memory(:)  = nan
-    site_in%vegtemp_memory(:) = nan              ! record of last 10 days temperature for senescence model.
+    !site_in%water_memory(:)  = nan
+    !site_in%vegtemp_memory(:) = nan              ! record of last 10 days temperature for senescence model.
 
     ! Disturbance rates tracking
     site_in%primary_land_patchfusion_error = 0.0_r8
